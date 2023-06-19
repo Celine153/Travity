@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
 * {
-	margin: 0;
+	margin: 5px;
 	padding: 0;
   }
+
+html{
+	margin: 0px;
+}
 
   body {
 	width: 100%;
@@ -111,61 +115,6 @@ a{
 	text-decoration: none;
 }
 
-.ol-1{
-    align-items: center;
-    display: flex;
-    gap: 16px;
-    position: relative;
-    width: fit-content;
-}
-
-.ol{
-    background-color: white;
-    border: 0.8px solid;
-    border-color: #007AFF;
-    border-radius: 6px;
-    margin-bottom: -1px;
-	margin-top: 20px;
-    margin-left: 45px;
-    margin-right: -1px;
-    overflow: hidden;
-    padding: 0px 24px;
-}
-
-.svg{
-    height: 20px;
-    min-width: 20px;
-    position: relative;
-}
-
-.ol-item{
-    padding: 0px 6.3px 0px 0px;
-}
-
-.inboxback{
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-	color: #005cf0;
-	font-weight: 400;
-}
-
-.svg-1{
-    height: 44px;
-    min-width: 24px;
-    position: relative;
-}
-
-
-header{
-	margin: 20px;
-}
-
 .banner-section{
 	position: relative;
 	width: 97%;
@@ -190,6 +139,8 @@ header{
 	width: 100%;
 	height: 100%;
 	margin: auto;
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+	filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1));
 	
 }
 
@@ -209,7 +160,7 @@ header{
 .profile-section .profile-name-info h1 {
 	width: 50%;
     margin-top: 20px;
-	margin-left: 45px;
+	margin-left: 30px;
 	font-size: 30px;
 	color: #29384E;
 }
@@ -247,7 +198,7 @@ header{
 	border: #29384E;
     border-radius: 15px 15px 15px 15px;
 	padding: 10px;
-	margin: 20px;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -263,8 +214,7 @@ header{
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;  
-	margin: 20px;  
+	flex-wrap: wrap;    
 	margin-top: 30px;
 
 }
@@ -421,42 +371,37 @@ header{
 .perjalanan{
 	position: relative;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    width: 95%;
+    width: 100%;
 	height: auto;
 	border: #29384E;
     border-radius: 15px 15px 15px 15px;
 	padding: 5px;
 	justify-content: space-between;
 	/* padding-bottom: 30px; */
-	margin: 20px;
 }
 
 .top{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 5px;
 }
 
 .top1{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 5px;
 }
 
 .top p{
 	font-size: 24px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: bold;
-	margin: 5px;
 }
 
 .top .days-todo{
 	display: flex;
 	color: #007AFF;
 	font-weight: normal;
-	margin: 5px;
 }
 
 
@@ -470,7 +415,6 @@ header{
 	width: 150px;
 	height: 50px;
 	font-size: 16px;
-	margin: 5px;
 }
 
 .link1{
@@ -483,7 +427,6 @@ header{
 	width: 100px;
 	height: 50px;
 	font-size: 16px;
-	margin: 5px;
 }
 
 .link2{
@@ -495,7 +438,6 @@ header{
 	color: #FF9800;
 	width: 120px;
 	height: 50px;
-	margin: 5px;
 	font-size: 16px;
 }
 
@@ -506,7 +448,6 @@ header{
 	align-items: center;
 	font-weight: normal;
 	color: white;
-	margin: 5px;
 	width: 120px;
 	height: 50px;
 	font-size: 16px;
@@ -521,7 +462,6 @@ header{
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
-	margin: 5px;
 
 }
 
@@ -530,20 +470,17 @@ header{
 	align-items: center;
 	justify-content: center;
 	width: 92%;
-	margin: 5px;
 }
 
 .middle h4{
 	color: #007AFF;
 	font-weight: normal;
 	font-size: 16px;
-	margin: 5px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bottom{
 	display: flex;
-	margin: 5px;
 	align-items: center;
 	justify-content: center;
 	width: 92%;
@@ -552,12 +489,10 @@ header{
 
 .bottom a{
 	text-decoration: none;
-	margin: 5px;
 }
 
 .bottom .btn{
 	display: flex;
-	margin: 5px;
 	flex-direction: row;
 	justify-content: left;
 	align-items: center;
@@ -581,12 +516,10 @@ header{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 15px;
 	font-weight: 700;
-	margin: 5px;
 }
 
 .top .btnhe{
 	display: flex;
-	margin: 5px;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
@@ -606,42 +539,8 @@ header{
 	flex-grow: 0;
 }
 
-.bottom .btn2{
-	cursor: pointer;
-	display: flex;
-	margin: 5px;
-	flex-direction: row;
-	justify-content: left;
-	align-items: center;
-	font-weight: normal;
-	background: #007AFF;
-	color: white;
-	width: 120px;
-	height: 50px;
-	border-radius: 8px;
-	font-size: 16px;
-	flex: none;
-	order: 0;
-	align-self: stretch;
-	flex-grow: 0;
-	transition: 0.3s;
-	position: relative;
-	-webkit-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-ms-transition: opacity 1s ease-in-out;
-}
-
-.bottom .btn2 img{
-	position: absolute;
-	margin: 5px;
-
-}
-
 .bottom .btn1{
-	cursor: pointer;
 	display: flex;
-	margin: 5px;
 	flex-direction: row;
 	justify-content: left;
 	align-items: center;
@@ -666,38 +565,18 @@ header{
 
 .bottom .btn1 img{
 	position: absolute;
-	margin: 5px;
 
 }
 
 .bottom .btn1 .icon-beranda:hover{
 	opacity: 0;		
-	margin: 5px;
 }
 
-.bottom .btn1:hover{
+.btn1:hover{
 	background: #007AFF;
 	color: white;
-	margin: 5px;
 }
 
-.panel .btn1{
-	display: flex;
-	margin: 5px;
-	flex-direction: row;
-	justify-content: left;
-	align-items: center;
-	font-weight: normal;
-	color: #93C7FF;
-	width: auto;
-	height: 50px;
-	font-size: 16px;
-	flex: none;
-	order: 0;
-	align-self: stretch;
-	flex-grow: 0;
-	padding: 20px;
-}
 
 .back-menu {
 	flex-direction: row;
@@ -730,6 +609,7 @@ header{
 }
 
 .arrow-right {
+	margin-top: 5px;
 	border-top: 25px solid transparent;
 	border-left: 23px solid #007AFF;
 	border-bottom: 25px solid transparent;
@@ -757,7 +637,6 @@ header{
     width: auto;
 	height: auto;
 	border: #29384E;
-	margin: 5px;
     border-radius: 15px 15px 15px 15px;
 	justify-content: space-evenly;
 	
@@ -766,7 +645,6 @@ header{
 
 .perjalanan .panel .contents{
 	position: relative;
-	margin: 5px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     width: auto;
 	height: auto;
@@ -785,7 +663,6 @@ header{
 
 .perjalanan .contents .days{
 	display: flex;
-	margin: 5px;
 	color: #007AFF;
 	font-weight: normal;
 }
@@ -794,7 +671,6 @@ header{
 .perjalanan .contents .location-con .top .lokasi{
 	
 	color: #29384E;
-	margin: 5px;
 	display: flex;;
 	flex-direction: row;
 	justify-content: last baseline;
@@ -810,7 +686,6 @@ header{
 
 .location-con .btn1{
 	display: flex;
-	margin: 5px;
 	flex-direction: row;
 	justify-content: left;
 	align-items: center;
@@ -833,7 +708,6 @@ header{
 	position: relative;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     width: auto;
-	margin: 5px;
 	height: auto;
 	background: #FFFFFF;
 	border: #29384E;
@@ -846,7 +720,6 @@ header{
 
 .aktifitas-tabel .act{
 	color: #29384E;
-	margin: 5px;
 	display: flex;;
 	flex-direction: row;
 	align-items: center;
@@ -856,7 +729,6 @@ header{
 
 .aktifitas-tabel .top{
 	margin: -10px;
-	margin: 5px;
 	margin-left: 10px;
 	margin-top: -5px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -907,12 +779,7 @@ header{
 	padding: 0px 0px;
 	background:white;
 	width: 100%;
-
 } 
-
-.accordion1{
-	border-radius: 30px;
-}
 
 
 .accordion{
@@ -934,7 +801,6 @@ header{
 	overflow: hidden;
 	transform: translateY(-30px);	
 	padding-left: 20px;
-	padding-right: 20px;
 }
 
 .kotak-act{
@@ -946,11 +812,16 @@ header{
 	border: #29384E;
     border-radius: 15px 15px 15px 15px;
 	justify-content: space-evenly;
-	/* padding-right: 20px; */
+	padding-right: 20px;
 	padding-top: 5px;
 	margin-bottom: 20px;
 }
 
+
+a{
+    text-decoration: none;
+	margin: 0px;
+}
 
 .foot{
     align-items: flex-start;

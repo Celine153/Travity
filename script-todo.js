@@ -3,14 +3,11 @@ var btn_aktifitas2 = document.getElementById("btn_aktifitas2");
 var btn_aktifitas3 = document.getElementById("btn_aktifitas3");
 var btn_aktifitas4 = document.getElementById("btn_aktifitas4");
 var btn_aktifitas5 = document.getElementById("btn_aktifitas5");
-var btn_aktifitas6 = document.getElementById("btn_aktifitas6");
 var konten_1 = document.getElementById("konten-1");
 var konten_2 = document.getElementById("konten-2");
 var konten_3 = document.getElementById("konten-3");
 var konten_4 = document.getElementById("konten-4");
 var konten_5 = document.getElementById("konten-5");
-var konten_6 = document.getElementById("konten-6");
-
 
 function myFunction(){
     if(konten_1.style.display=="none"){
@@ -115,37 +112,27 @@ act5.addEventListener("click", ()=>{
 });
 
 var btn_simpandaftar1 = document.getElementById("btn_simpandaftar1");
-var btn_simpandaftar2 = document.getElementById("btn_simpandaftar2");
-var btn_simpandaftar3 = document.getElementById("btn_simpandaftar3");
-var btn_simpandaftar4 = document.getElementById("btn_simpandaftar4");
-var btn_simpandaftar5 = document.getElementById("btn_simpandaftar5");
-var btn_simpandaftar6 = document.getElementById("btn_simpandaftar6");
-function kosong(){
-    if(simpan_1.style.display=="none"&&simpan_2.style.display=="none"&&simpan_3.style.display=="none"&&simpan_4.style.display=="none"&&simpan_5.style.display=="none"&&simpan_6.style.display=="none"){
-        var kosong_1 = document.getElementById("kosong_1");
-        kosong_1.style.display="flex";
-        
-    }
-}
+var kosong_1 = document.getElementById("kosong_1");
 function pindahsimpandaftar1() {
+    var simpan_1 = document.getElementById("simpan_1");
+    var kosong_1 = document.getElementById("kosong_1");
     if(simpan_1.style.display=="none"){
         simpan_1.style.display="block";
         kosong_1.style.display="none";
     }
     else{
         simpan_1.style.display="none";
-        kosong();
+        kosong_1.style.display="block";
+
     }
 }
 function pindahsimpandaftar2() {
     var simpan_2 = document.getElementById("simpan_2");
     if(simpan_2.style.display=="none"){
         simpan_2.style.display="block";
-        kosong_1.style.display="none";
     }
     else{
         simpan_2.style.display="none";
-        kosong();
 
     }
 }
@@ -153,47 +140,10 @@ function pindahsimpandaftar3() {
     var simpan_3 = document.getElementById("simpan_3");
     if(simpan_3.style.display=="none"){
         simpan_3.style.display="block";
-        kosong_1.style.display="none";
     }
     else{
         simpan_3.style.display="none";
-        kosong();
-
-    }
-}
-function pindahsimpandaftar4() {
-    var simpan_4 = document.getElementById("simpan_4");
-    if(simpan_4.style.display=="none"){
-        simpan_4.style.display="block";
-        kosong_1.style.display="none";
-    }
-    else{
-        simpan_4.style.display="none";
-        kosong();
-
-    }
-}
-function pindahsimpandaftar5() {
-    var simpan_5 = document.getElementById("simpan_5");
-    if(simpan_5.style.display=="none"){
-        simpan_5.style.display="block";
-        kosong_1.style.display="none";
-    }
-    else{
-        simpan_5.style.display="none";
-        kosong();
-
-    }
-}
-function pindahsimpandaftar6() {
-    var simpan_6 = document.getElementById("simpan_6");
-    if(simpan_6.style.display=="none"){
-        simpan_6.style.display="block";
-        kosong_1.style.display="none";
-    }
-    else{
-        simpan_6.style.display="none";
-        kosong();
+        kosong_1.style.display="block";
 
     }
 }

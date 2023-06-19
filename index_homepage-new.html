@@ -8,22 +8,18 @@
     <link href="style_homepage_new.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <nav >
-        <div class="nav-left">
-            <div class="imp-links">
-                <div class="logo">
-                    <img src="asset/Travity.png" alt="">
-                </div>
-            </div>
+    <nav class="nav37">
+        <div class="logo-nav">
+            <img src="asset/logo.png" alt="">
         </div>
-
         <div class="nav-mid">
             <div class="imp-links">
-                <a href="index_homepage-new.html"><div class="table-daftar">&emsp;
+                <a href="index_homepage-new.html"><div class="table-daftar" style="background: #DBEAFE;
+                    color: #007AFF;">&emsp;
                     <img src="asset/beranda.png" class="icon-beranda-burem" />&emsp;&emsp;&emsp;Beranda
-                    <img src="asset/beranda_opp.png" class="icon-beranda"> 
+                    <!-- <img src="asset/beranda_opp.png" class="icon-beranda">  -->
                 </div></a>
-                <a href="index-akun-active.html"><div class="table-daftar">&emsp;
+                <a href="index-akun-active.html"><div class="table-daftar"  >&emsp;
                     <img src="asset/accun.png" class="icon-beranda-burem" />&emsp;&emsp;&emsp;Akun
                     <img src="asset/accun_opp.png" class="icon-beranda">
                 </div></a>
@@ -33,8 +29,6 @@
                 </div></a>
             </div>
         </div>
-
-
         <div class="nav-right">
             <div class="search-box">
                 <input type="text" placeholder="Cari tempat favoritmu . . .">
@@ -42,6 +36,7 @@
             </div>
         </div>
     </nav>
+
     <section class="banner-section">		
         <header class="banner-site">            
             <img src="asset-homepage/banner.png">
@@ -207,29 +202,29 @@
                         <div class="tmpt-isi4-384">
                             <div class="frame3">
                                 
-                                <div class="gbrlokasi" style="background-image: url(asset-homepage/DIY.png);">
+                                <a href="home.html"><div class="gbrlokasi" style="background-image: url(asset-homepage/DIY.png);">
                                     <div class="overlap-group">
                                         <div class="place2 gayatulisan">Daerah <br> Istimewa <br> Yogyakarta</div>
                                     </div>
-                                </div>
+                                </div></a>
 
-                                <div class="gbrlokasi" style="background-image: url(asset-homepage/bali.png);">
+                                <a href=""><div class="gbrlokasi" style="background-image: url(asset-homepage/bali.png);">
                                     <div class="overlap-group">
                                         <div class="place2 gayatulisan">Bali</div>
                                     </div>
-                                </div>
+                                </div></a>
 
-                                <div class="gbrlokasi" style="background-image: url(asset-homepage/jawa-tengah.png);">
+                                <a href=""><div class="gbrlokasi" style="background-image: url(asset-homepage/jawa-tengah.png);">
                                     <div class="overlap-group">
                                         <div class="place2 gayatulisan">Jawa Tengah</div>
                                     </div>
-                                </div>
+                                </div></a>
 
-                                <div class="gbrlokasi" style="background-image: url(asset-homepage/jawa-timur.png);">
+                                <a href=""><div class="gbrlokasi" style="background-image: url(asset-homepage/jawa-timur.png);">
                                     <div class="overlap-group">
                                         <div class="place2 gayatulisan">Jawa Timur</div>
                                     </div>
-                                </div>
+                                </div></a>
 
                             </div>
                             <div class="frame3">
@@ -320,30 +315,21 @@
         </div>
     </div>
 
-<footer class="footer" style="margin-left: 0px; margin-top: 0px;">
-    <section class="container">
-            <div class="left-sidebar1">
-                <div class="row1">
-                    <div class="logo1">
-                        <img src="asset/logo.png" alt="">
-                    </div><br>
-                    <div class="wonderfull-footer">
-                        <img src="asset/wonderfull-indonesia-footer.png" alt="">
-                    </div>
-                </div>
-            </div>
-            
-            <div class="main-sidebar">
-                <ul>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Travity</a></li>
-                    <li><a href="#">Kemitraan</a></li>
-                    <li><a href="#">Kontak Kami</a></li>
-                    <li><a href="#">Terms, Privacy Policy & Copyright</a></li>  
-                </ul>
-            </div>
-    </section>
-</footer>
+    <footer class="foot">
+        <div class="flexcol">
+            <img src="asset/logo.png" alt="">
+            <img src="asset/wonderfull-indonesia-footer.png" alt="">
+        </div>
+    
+        <div class="linkfooter">
+            <div class="linkfoot">Blog</div>
+            <div class="linkfoot">Travity</div>
+            <div class="linkfoot">Kemitraan</div>
+            <div class="linkfoot">Kontak Kami</div>
+            <div class="linkfoot">Terms, Privacy policy & Copyright</div>
+        </div>
+    
+    </footer>
 
 <script>
     var acc = document.getElementsByClassName("accordion");

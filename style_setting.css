@@ -3,42 +3,40 @@
 * {
 	margin: 0;
 	padding: 0;
-  }
-
-  body {
+}
+body {
 	width: 100%;
 	height: 100%;
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: bold;
 	position: relative;
+	
 }
-
-nav{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px 5%;
-	margin: auto;
-	background: white;
-	border-radius: 15px;
-	width: 84%;
-	position: sticky;
+.nav37{
+    align-items: center;
+    align-self: stretch;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    position: sticky;
 	top: 0;
 	z-index: 100;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-	
 }
 
-.nav-left, .nav-right{
-	display: block;
-	align-items: center;
+.logo-nav{
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    height: 43.36px;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
 }
 
-.nav-left .imp-links{
-	display: flex;
-	flex-direction: row;
-	justify-content: left;
-	align-items: center;
+.nav-mid{
+    margin-left: 120px;
 }
 
 .nav-mid .imp-links{
@@ -52,53 +50,13 @@ nav{
 	text-decoration: none;
 }
 
-.logo{
-	display: flex;
-	flex-direction: row;
-	justify-content: left;
-	align-items: center;
-	transform: translateX(-50px);
-	width: 130px;
-	height: 50px;
-	color: #93C7FF;	
-	border-radius: 8px;
-	flex: none;
-	order: 0;
-	align-self: stretch;
-	flex-grow: 0;
-	margin-right: 180px;
-}
-
-
-.table-daftar1 {
-	display: flex;
-	flex-direction: row;
-	justify-content: left;
-	align-items: center;
-	margin-left: 20px;
-	width: 170px;
-	height: 50px;
-	color: #93C7FF;	
-	background: white;
-	border-radius: 8px;
-	flex: none;
-	order: 0;
-	align-self: stretch;
-	flex-grow: 0;
-  	transition: 0.3s;
-	position: relative;
-	-webkit-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-ms-transition: opacity 1s ease-in-out;
-}
-
 .table-daftar {
+    margin-left: 10px;
+    margin-right: 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
 	align-items: center;
-	margin-left: 20px;
 	width: 170px;
 	height: 50px;
 	color: #93C7FF;	
@@ -137,7 +95,7 @@ nav{
 	width: 250px;
 	display: flex;
 	align-items: center;
-	padding: 0 15px;
+	/* padding: 0 15px; */
 	border-radius: 20px;
 }
 
@@ -148,7 +106,6 @@ nav{
 	outline: none;
 	border: 0;
 }
-
 
 .container{
 	position: relative;
@@ -220,7 +177,7 @@ h1{
 	justify-content: left;
 	align-items: center;
 	font-size: 15px;
-	width: 360px;
+	width: 380px;
 	height: 50px;
 	
 	font-family: 'Quicksand', sans-serif;
@@ -232,6 +189,11 @@ h1{
 	order: 0;
 	align-self: stretch;
 	flex-grow: 0;
+}
+
+.kosong:hover{
+	background-color: #DBEAFE;
+	border-radius:  8px;
 }
 
 .kosongk{
@@ -356,4 +318,52 @@ a{
 
 .listan1 .edit{
 	color: #007AFF;
+}
+
+
+.foot{
+    align-items: flex-start;
+    background-color: #DBEAFE;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    gap: 100px;
+    height: 400px;
+    justify-content: flex-start;
+    margin-top: 150px;
+    mix-blend-mode: normal;
+    padding: 24px 48px;
+    width: 1440px;
+}
+
+.flexcol{
+    margin-top: 40px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    min-height: 219px;
+    width: 296px;
+}
+
+.linkfooter{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 0.95px;
+    position: relative;
+    width: 619px;
+}
+
+.linkfoot{
+    align-self: stretch;
+    color: #29384E;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Quicksand', sans-serif;
 }

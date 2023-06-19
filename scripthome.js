@@ -197,3 +197,134 @@ function pindahsimpandaftar6() {
 
     }
 }
+
+var btn_hotelmin = document.getElementById("hotel-min");
+var btn_motelmin = document.getElementById("motel-min");
+var btn_motelplus = document.getElementById("motel-plus");
+
+function hotelmin() {
+    var btn_hotelmin = document.getElementById("hotel-min");
+    var btn_hotelplus = document.getElementById("hotel-plus");
+    if(btn_hotelplus.style.display=="none"){
+        btn_hotelplus.style.display="block";
+        btn_hotelmin.style.display="none";
+    }
+    else {
+        btn_hotelplus.style.display="none";
+        btn_hotelmin.style.display="block";
+    }
+}
+function motelmin() {
+    var btn_motelmin = document.getElementById("motel-min");
+    var btn_motelplus = document.getElementById("motel-plus");
+    if(btn_motelplus.style.display=="none"){
+        btn_motelplus.style.display="block";
+        btn_motelmin.style.display="none";
+    }
+    else {
+        btn_motelplus.style.display="none";
+        btn_motelmin.style.display="block";
+    }
+}
+
+function moneychangermin() {
+    var btn_moneychangermin = document.getElementById("moneychanger-min");
+    var btn_moneychangerplus = document.getElementById("moneychanger-plus");
+    if(btn_moneychangerplus.style.display=="none"){
+        btn_moneychangerplus.style.display="block";
+        btn_moneychangermin.style.display="none";
+    }
+    else {
+        btn_moneychangerplus.style.display="none";
+        btn_moneychangermin.style.display="block";
+    }
+}
+function mallmin() {
+    var btn_mallmin = document.getElementById("mall-min");
+    var btn_mallplus = document.getElementById("mall-plus");
+    if(btn_mallplus.style.display=="none"){
+        btn_mallplus.style.display="block";
+        btn_mallmin.style.display="none";
+    }
+    else {
+        btn_mallplus.style.display="none";
+        btn_mallmin.style.display="block";
+    }
+}
+function ticketmin() {
+    var btn_ticketmin = document.getElementById("ticket-min");
+    var btn_ticketplus = document.getElementById("ticket-plus");
+    if(btn_ticketplus.style.display=="none"){
+        btn_ticketplus.style.display="block";
+        btn_ticketmin.style.display="none";
+    }
+    else {
+        btn_ticketplus.style.display="none";
+        btn_ticketmin.style.display="block";
+    }
+}
+
+function kemahmin() {
+    var btn_kemahmin = document.getElementById("kemah-min");
+    var btn_kemahplus = document.getElementById("kemah-plus");
+    if(btn_kemahplus.style.display=="none"){
+        btn_kemahplus.style.display="block";
+        btn_kemahmin.style.display="none";
+    }
+    else {
+        btn_kemahplus.style.display="none";
+        btn_kemahmin.style.display="block";
+    }
+}
+
+function pantaimin() {
+    var btn_pantaimin = document.getElementById("pantai-min");
+    var btn_pantaiplus = document.getElementById("pantai-plus");
+    if(btn_pantaiplus.style.display=="none"){
+        btn_pantaiplus.style.display="block";
+        btn_pantaimin.style.display="none";
+    }
+    else {
+        btn_pantaiplus.style.display="none";
+        btn_pantaimin.style.display="block";
+    }
+}
+
+function jalansantaimin() {
+    var btn_jalansantaimin = document.getElementById("jalansantai-min");
+    var btn_jalansantaiplus = document.getElementById("jalansantai-plus");
+    if(btn_jalansantaiplus.style.display=="none"){
+        btn_jalansantaiplus.style.display="block";
+        btn_jalansantaimin.style.display="none";
+    }
+    else {
+        btn_jalansantaiplus.style.display="none";
+        btn_jalansantaimin.style.display="block";
+    }
+}
+
+function forestmin() {
+    var btn_forestmin = document.getElementById("forest-min");
+    var btn_forestplus = document.getElementById("forest-plus");
+    if(btn_forestplus.style.display=="none"){
+        btn_forestplus.style.display="block";
+        btn_forestmin.style.display="none";
+    }
+    else {
+        btn_forestplus.style.display="none";
+        btn_forestmin.style.display="block";
+    }
+}
+
+function trendmin() {
+    var btn_trendmin = document.getElementById("trend-min");
+    var btn_trendplus = document.getElementById("trend-plus");
+    if(btn_trendplus.style.display=="none"){
+        btn_trendplus.style.display="block";
+        btn_trendmin.style.display="none";
+    }
+    else {
+        btn_trendplus.style.display="none";
+        btn_trendmin.style.display="block";
+    }
+}
